@@ -5,7 +5,7 @@ int main() {
   const int screenWidth = 1920;
   const int screenHeight = 1080;
 
-  InitWindow(screenWidth, screenHeight, "Frisbee Thrower");
+  InitWindow(screenWidth, screenHeight, "Frisbee Takedown");
   InitAudioDevice();
   SetTargetFPS(60);
 

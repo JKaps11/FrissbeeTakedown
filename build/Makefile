@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MyRaylibProject
+# Target rules for targets named FrisbeeTakedown
 
 # Build rule for target.
-MyRaylibProject: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyRaylibProject
-.PHONY : MyRaylibProject
+FrisbeeTakedown: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FrisbeeTakedown
+.PHONY : FrisbeeTakedown
 
 # fast build rule for target.
-MyRaylibProject/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/build
-.PHONY : MyRaylibProject/fast
+FrisbeeTakedown/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/build
+.PHONY : FrisbeeTakedown/fast
 
 camera.o: camera.c.o
 .PHONY : camera.o
 
 # target to build an object file
 camera.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/camera.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/camera.c.o
 .PHONY : camera.c.o
 
 camera.i: camera.c.i
@@ -142,7 +142,7 @@ camera.i: camera.c.i
 
 # target to preprocess a source file
 camera.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/camera.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/camera.c.i
 .PHONY : camera.c.i
 
 camera.s: camera.c.s
@@ -150,7 +150,7 @@ camera.s: camera.c.s
 
 # target to generate assembly for a file
 camera.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/camera.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/camera.c.s
 .PHONY : camera.c.s
 
 enemy.o: enemy.c.o
@@ -158,7 +158,7 @@ enemy.o: enemy.c.o
 
 # target to build an object file
 enemy.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/enemy.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/enemy.c.o
 .PHONY : enemy.c.o
 
 enemy.i: enemy.c.i
@@ -166,7 +166,7 @@ enemy.i: enemy.c.i
 
 # target to preprocess a source file
 enemy.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/enemy.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/enemy.c.i
 .PHONY : enemy.c.i
 
 enemy.s: enemy.c.s
@@ -174,7 +174,7 @@ enemy.s: enemy.c.s
 
 # target to generate assembly for a file
 enemy.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/enemy.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/enemy.c.s
 .PHONY : enemy.c.s
 
 frisbee.o: frisbee.c.o
@@ -182,7 +182,7 @@ frisbee.o: frisbee.c.o
 
 # target to build an object file
 frisbee.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/frisbee.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/frisbee.c.o
 .PHONY : frisbee.c.o
 
 frisbee.i: frisbee.c.i
@@ -190,7 +190,7 @@ frisbee.i: frisbee.c.i
 
 # target to preprocess a source file
 frisbee.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/frisbee.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/frisbee.c.i
 .PHONY : frisbee.c.i
 
 frisbee.s: frisbee.c.s
@@ -198,7 +198,7 @@ frisbee.s: frisbee.c.s
 
 # target to generate assembly for a file
 frisbee.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/frisbee.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/frisbee.c.s
 .PHONY : frisbee.c.s
 
 game.o: game.c.o
@@ -206,7 +206,7 @@ game.o: game.c.o
 
 # target to build an object file
 game.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/game.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/game.c.o
 .PHONY : game.c.o
 
 game.i: game.c.i
@@ -214,7 +214,7 @@ game.i: game.c.i
 
 # target to preprocess a source file
 game.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/game.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/game.c.i
 .PHONY : game.c.i
 
 game.s: game.c.s
@@ -222,7 +222,7 @@ game.s: game.c.s
 
 # target to generate assembly for a file
 game.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/game.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/game.c.s
 .PHONY : game.c.s
 
 main.o: main.c.o
@@ -230,7 +230,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -238,7 +238,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -246,7 +246,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/main.c.s
 .PHONY : main.c.s
 
 map.o: map.c.o
@@ -254,7 +254,7 @@ map.o: map.c.o
 
 # target to build an object file
 map.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/map.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/map.c.o
 .PHONY : map.c.o
 
 map.i: map.c.i
@@ -262,7 +262,7 @@ map.i: map.c.i
 
 # target to preprocess a source file
 map.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/map.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/map.c.i
 .PHONY : map.c.i
 
 map.s: map.c.s
@@ -270,7 +270,7 @@ map.s: map.c.s
 
 # target to generate assembly for a file
 map.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/map.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/map.c.s
 .PHONY : map.c.s
 
 player.o: player.c.o
@@ -278,7 +278,7 @@ player.o: player.c.o
 
 # target to build an object file
 player.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/player.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/player.c.o
 .PHONY : player.c.o
 
 player.i: player.c.i
@@ -286,7 +286,7 @@ player.i: player.c.i
 
 # target to preprocess a source file
 player.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/player.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/player.c.i
 .PHONY : player.c.i
 
 player.s: player.c.s
@@ -294,7 +294,7 @@ player.s: player.c.s
 
 # target to generate assembly for a file
 player.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/player.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/player.c.s
 .PHONY : player.c.s
 
 # Help Target
@@ -305,7 +305,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... MyRaylibProject"
+	@echo "... FrisbeeTakedown"
 	@echo "... camera.o"
 	@echo "... camera.i"
 	@echo "... camera.s"

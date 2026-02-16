@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(MyRaylibProject C) # Specify C language
+project(FrisbeeTakedown C) # Specify C language
 
 # Find raylib package (assumes raylib is installed in system paths or a package manager path)
 find_package(raylib REQUIRED)

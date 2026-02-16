@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /home/jkaps/Coding/frisbeeThrower/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/MyRaylibProject.dir/all
+all: CMakeFiles/FrisbeeTakedown.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/MyRaylibProject.dir/codegen
+codegen: CMakeFiles/FrisbeeTakedown.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/MyRaylibProject.dir/clean
+clean: CMakeFiles/FrisbeeTakedown.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/MyRaylibProject.dir
+# Target rules for target CMakeFiles/FrisbeeTakedown.dir
 
 # All Build rule for target.
-CMakeFiles/MyRaylibProject.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jkaps/Coding/frisbeeThrower/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target MyRaylibProject"
-.PHONY : CMakeFiles/MyRaylibProject.dir/all
+CMakeFiles/FrisbeeTakedown.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jkaps/Coding/frisbeeThrower/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target FrisbeeTakedown"
+.PHONY : CMakeFiles/FrisbeeTakedown.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/MyRaylibProject.dir/rule: cmake_check_build_system
+CMakeFiles/FrisbeeTakedown.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jkaps/Coding/frisbeeThrower/build/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyRaylibProject.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FrisbeeTakedown.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jkaps/Coding/frisbeeThrower/build/CMakeFiles 0
-.PHONY : CMakeFiles/MyRaylibProject.dir/rule
+.PHONY : CMakeFiles/FrisbeeTakedown.dir/rule
 
 # Convenience name for target.
-MyRaylibProject: CMakeFiles/MyRaylibProject.dir/rule
-.PHONY : MyRaylibProject
+FrisbeeTakedown: CMakeFiles/FrisbeeTakedown.dir/rule
+.PHONY : FrisbeeTakedown
 
 # codegen rule for target.
-CMakeFiles/MyRaylibProject.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jkaps/Coding/frisbeeThrower/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target MyRaylibProject"
-.PHONY : CMakeFiles/MyRaylibProject.dir/codegen
+CMakeFiles/FrisbeeTakedown.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jkaps/Coding/frisbeeThrower/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target FrisbeeTakedown"
+.PHONY : CMakeFiles/FrisbeeTakedown.dir/codegen
 
 # clean rule for target.
-CMakeFiles/MyRaylibProject.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRaylibProject.dir/build.make CMakeFiles/MyRaylibProject.dir/clean
-.PHONY : CMakeFiles/MyRaylibProject.dir/clean
+CMakeFiles/FrisbeeTakedown.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FrisbeeTakedown.dir/build.make CMakeFiles/FrisbeeTakedown.dir/clean
+.PHONY : CMakeFiles/FrisbeeTakedown.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

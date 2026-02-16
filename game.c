@@ -249,7 +249,7 @@ static void UpdatePlaying(Game *game) {
 }
 
 static void DrawTitleScreen(void) {
-    const char *title = "FRISBEE THROWER";
+    const char *title = "FRISBEE TAKEDOWN";
     const char *prompt = "Press any key to continue";
 
     int screenWidth = GetScreenWidth();
