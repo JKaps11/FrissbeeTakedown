@@ -1,0 +1,3 @@
+/home/jkaps/Coding/frisbeeThrower/build/CMakeFiles/MyRaylibProject.dir
+/home/jkaps/Coding/frisbeeThrower/build/CMakeFiles/edit_cache.dir
+/home/jkaps/Coding/frisbeeThrower/build/CMakeFiles/rebuild_cache.dir
